@@ -69,5 +69,6 @@ switch(true){
     default : discount = 0;
 }
 
+console.log("hi");
 console.log("Discount is: " , discount);
 
