@@ -9,7 +9,7 @@
 
 const pi = 3.14;
 
-var age = 18;
+// var age = 18;
 
 
 let city = "Mohali"; //string
@@ -30,7 +30,9 @@ let school = null;  //null
 console.log(school); 
 
 let name = "your_name";
+let age = 20;
 
 console.log("my name is " + name);
 
-
+//String interpolation
+console.log(`my name is ${name}. My age is ${age}`);
