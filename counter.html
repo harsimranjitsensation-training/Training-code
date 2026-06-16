@@ -10,6 +10,7 @@
     <h1 id="count"> 0 </h1>
     <button id="incbtn" onclick="increment();">+</button>
     <button id="decbtn" onclick="decrement();">-</button>
+    <button id="reset" onclick="reset();">RESET</button>
 </body>
 
 <script>
@@ -25,5 +26,12 @@
         let text = document.querySelector("#count");
         text.innerText = count;
     }
+
+    function reset(){
+        count = 0;
+        let text = document.querySelector("#count");
+        text.innerText = count;
+    }
+
 </script>
 </html>
